@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promociones y ofertas - KuruMangas</title>
+    <link rel="icon" href="imagenes/iconno.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+
+    <header>
+        <nav>
+          <div id="logo">
+            <a href="index.html"><img src="imagenes/logo2pagina.svg" alt="logo" /></a>
+          </div>
+          <div id="links">
+            <a href="index.html">Inicio</a>
+            <a href="Novedades.html">Novedades</a>
+            <a href="Catalogo.html">Catalogo</a>
+            <a href="Promociones.html">Promociones</a>
+            <a href="Nosotros.html">Nosotros</a>
+          </div>
+          <div class="container-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="icon-cart"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+              />
+            </svg>
+            <div class="count-products">
+              <span id="contador-productos">1</span>
+            </div>
+  
+            <div class="container-cart-products hidden-cart">
+              <div class="cart-product">
+                <div class="info-cart-product">
+                  <span class="cantidad-producto-carrito">1 </span>
+                  <p class="titulo-producto-carrito"> The Horizon 01</p>
+                  <span class="precio-producto-carrito">$24.500</span>
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="icon-close"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </div>
+              <div class="cart-total">
+                <h3>Total:</h3>
+                <span class="total-pagar">$24.500</span>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+    <div class="contenedor">
+
+      <div class="row-container">
+        <div class="left">
+          
+          <div class="checkbox-diseño">
+            <div class="content"> 
+              <h4 class="title">EDITORIAL</h4>
+
+              <ul class="items ">
+                <li class="item">
+                  <label for="editorial-1">
+                    <input
+                      type="checkbox"
+                      id="editorial-1"
+                      name="checkbox-1"
+                      value="arechi-manga"
+                    />
+
+                    <a
+                      href="#"
+                      role="button"
+                      class="term-label"
+                    >
+                      ARECHI MANGA
+                    </a>
+                  </label>
+                </li>
+
+                <li class="item">
+                  <label for="editorial-2">
+                    <input
+                      type="checkbox"
+                      id="editorial-1"
+                      name="filter[259076][6]"
+                      value="ivrea-argentina"
+                    />
+
+                    <a
+                      href="#"
+                      role="button"
+                      class="term-label"
+                    >
+                      IVREA ARGENTINA
+                    </a>
+                  </label>
+                </li>
+
+                <li class="item">
+                  <label for="editorial-3">
+                    <input
+                      type="checkbox"
+                      id="editorial-3"
+                      name="filter[259076][6]"
+                      value="ivrea-españa"
+                    />
+
+                    <a
+                      href="#"
+                      role="button"
+                      class="term-label"
+                    >
+                      IVREA ESPAÑA
+                    </a>
+                  </label>
+                </li>
+
+                <li class="item">
+                  <label for="editorial-4">
+                    <input
+                      type="checkbox"
+                      id="editorial-4"
+                      name="filter[259076][6]"
+                      value="milkyway"
+                    />
+
+                    <a
+                      href="#"
+                      role="button"
+                      class="term-label"
+                    >
+                      MILKY WAY
+                    </a>
+                  </label>
+                </li>
+
+                <li class="item">
+                  <label for="editorial-5">
+                    <input
+                      type="checkbox"
+                      id="editorial-5"
+                      name="filter[259076][6]"
+                      value="norma-editorial"
+                    />
+
+                    <a
+                      href="#"
+                      role="button"
+                      class="term-label"
+                    >
+                      NORMA EDITORIAL
+                    </a>
+                  </label>
+                </li>
+
+                <li class="item">
+                  <label for="editorial-6">
+                    <input
+                      type="checkbox"
+                      id="editorial-6"
+                      name="filter[259076][6]"
+                      value="panini-españa"
+                    />
+
+                    <a
+                      href="#"
+                      role="button"
+                      class="term-label"
+                    >
+                      PANINI ESPAÑA
+                    </a>
+                  </label>
+                </li>
+
+                <li class="item">
+                  <label for="editorial-7">
+                    <input
+                      type="checkbox"
+                      id="editorial-7"
+                      name="filter[259076][6]"
+                      value="planeta-comic"
+                    />
+
+                    <a
+                      href="#"
+                      role="button"
+                      class="term-label"
+                    >
+                      PLANETA COMIC
+                    </a>
+                  </label>
+                </li>
+
+                <li class="item">
+                  <label for="editorial-8">
+                    <input
+                      type="checkbox"
+                      id="editorial-8"
+                      name="filter[259076][6]"
+                      value="tomodomo"
+                    />
+
+                    <a
+                      href="#"
+                      role="button"
+                      class="term-label"
+                    >
+                      TOMODOMO
+                    </a>
+                  </label>
+                </li>
+
+                <li class="item">
+                  <label for="editorial-8">
+                    <input
+                      type="checkbox"
+                      id="editorial-8"
+                      name="filter[259076][6]"
+                      value="tomodomo"
+                    />
+
+                    <a
+                      href="#"
+                      role="button"
+                      class="term-label"
+                    >
+                      VERTICAL COMICS
+                    </a>
+                  </label>
+                </li>
+
+                <li class="item">
+                  <label for="editorial-8">
+                    <input
+                      type="checkbox"
+                      id="editorial-8"
+                      name="filter[259076][6]"
+                      value="tomodomo"
+                    />
+
+                    <a
+                      href="#"
+                      role="button"
+                      class="term-label"
+                    >
+                      WOLU CHILE
+                    </a>
+                  </label>
+                </li>
+
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="right">
+          
+          <div class="encabezado-right">
+            <h3 style="font-size: 3rem;">
+              OFERTAS
+            </h3>
+          </div>
+
+          <div class="coleccion"> 
+
+            <div class="arriba">
+
+              <div class="productos">
+                <p>Mostrando 200 productos</p>
+              </div>
+
+              <div class="dropdown">
+                <button class="dropbtn">Ordenar:Alfabéticamente A-Z</button>
+                <div class="dropdown-lista">
+                  <a href="#">Características</a>
+                  <a href="#">Más vendidos</a>
+                  <a href="#">Alfabéticamente A-Z</a>
+                  <a href="#">Precio, menor a mayor</a>
+                  <a href="#">Precio, mayor a menor</a>
+                  <a href="#">Alfabéticamente Z-A</a>
+                </div>
+              </div>
+
+
+            </div>
+
+              <div class="colecciones">
+
+                <div class="producto-coleccion">
+                  <div class="manga-producto">
+
+                    <div class="imagen-manga" id="manga-15">
+
+                      <div class="disponible-vendido">
+                        <div class="descuento">-4%</div>
+                        <div class="disp">Disponible</div>
+
+                      </div>
+                    </div>
+
+                    <div class="producto-info">
+                      <h3>AKANE BANASHI 01 </h3>
+                      <h5>DISPONIBILIDAD: Disponible (5 artículos)
+                      </h5>
+                      <h5>EDITORIAL: MILKY WAY</h5>
+                    </div>
+
+                    <div class="precio-producto">
+                      <div class="precios">
+                      <p class="descuentito" style="font-weight: 300; font-size: 15px;">$15.490</p>
+                      <p > $14.990</p>
+                    </div>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="producto-coleccion">
+                  <div class="manga-producto">
+
+                    <div class="imagen-manga" id="manga-16">
+
+                      <div class="disponible-vendido">
+                        <div class="descuento">-15%</div>
+                        <div class="disp">Disponible</div>
+
+                      </div>
+                    </div>
+
+                    <div class="producto-info">
+                    <h3>ASADORA VOLUMEN 05</h3>
+                      <h5>DISPONIBILIDAD: Disponible (3 artículos)
+                      </h5>
+                      <h5>EDITORIAL: PLANETA COMIC</h5>
+                    </div>
+
+                    <div class="precio-producto">
+                      <div class="precios">
+                      <p class="descuentito" style="font-weight: 300; font-size: 15px;">$11.500</p>
+                      <p > $9.775</p>
+                    </div>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="producto-coleccion">
+                  <div class="manga-producto">
+
+                    <div class="imagen-manga" id="manga-17">
+
+                      <div class="disponible-vendido">
+                        <div class="descuento">-7%</div>
+                        <div class="disp">Disponible</div>
+
+                      </div>
+                    </div>
+
+                    <div class="producto-info">
+                      <h3>BLUE PERIOD VOLUMEN 03</h3>
+                      <h5>DISPONIBILIDAD: Disponible (7 artículos)
+                      </h5>
+                      <h5>EDITORIAL: MILKY WAY</h5>
+                    </div>
+
+                    <div class="precio-producto">
+                      <div class="precios">
+                      <p class="descuentito" style="font-weight: 300; font-size: 15px;">$15.990</p>
+                      <p > $14.990</p>
+                    </div>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="producto-coleccion">
+                  <div class="manga-producto">
+
+                    <div class="imagen-manga" id="manga-18">
+
+                      <div class="disponible-vendido">
+                        <div class="descuento">-7%</div>
+                        <div class="disp">Disponible</div>
+
+                      </div>
+                    </div>
+
+                    <div class="producto-info">
+                      <h3>BLUE PERIOD VOLUMEN 05</h3>
+                      <h5>DISPONIBILIDAD: Disponible (4 artículos)
+                      </h5>
+                      <h5>EDITORIAL: MILKY WAY</h5>
+                    </div>
+
+                    <div class="precio-producto">
+                      <div class="precios">
+                      <p class="descuentito" style="font-weight: 300; font-size: 15px;">$15.990</p>
+                      <p > $14.990</p>
+                    </div>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="producto-coleccion">
+                  <div class="manga-producto">
+
+                    <div class="imagen-manga" id="manga-19">
+
+                      <div class="disponible-vendido">
+                        <div class="descuento">-7%</div>
+                        <div class="disp">Disponible</div>
+
+                      </div>
+                    </div>
+
+                    <div class="producto-info">
+                      <h3>BOY'S ABYSS VOLUMEN 02</h3>
+                      <h5>DISPONIBILIDAD: Disponible (2 artículos)
+                      </h5>
+                      <h5>EDITORIAL: MILKY WAY</h5>
+                    </div>
+
+                    <div class="precio-producto">
+                      <div class="precios">
+                      <p class="descuentito" style="font-weight: 300; font-size: 15px;">$15.990</p>
+                      <p > $14.990</p>
+                    </div>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="producto-coleccion">
+                  <div class="manga-producto">
+
+                    <div class="imagen-manga" id="manga-20">
+
+                      <div class="disponible-vendido">
+                        <div class="descuento">-7%</div>
+                        <div class="disp">Disponible</div>
+
+                      </div>
+                    </div>
+
+                    <div class="producto-info">
+                      <h3>BOY'S ABYSS VOLUMEN 03</h3>
+                      <h5>DISPONIBILIDAD: Disponible (2 artículos)
+                      </h5>
+                      <h5>EDITORIAL: MILKY WAY</h5>
+                    </div>
+
+                    <div class="precio-producto">
+                      <div class="precios">
+                      <p class="descuentito" style="font-weight: 300; font-size: 15px;">$15.990</p>
+                      <p > $14.990</p>
+                    </div>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="producto-coleccion">
+                  <div class="manga-producto">
+
+                    <div class="imagen-manga" id="manga-21">
+
+                      <div class="disponible-vendido">
+                        <div class="descuento">-7%</div>
+                        <div class="disp">Disponible</div>
+
+                      </div>
+                    </div>
+
+                    <div class="producto-info">
+                      <h3>BOY'S ABYSS VOLUMEN 05</h3>
+                      <h5>DISPONIBILIDAD: Disponible (1 artículo)
+                      </h5>
+                      <h5>EDITORIAL: MILKY WAY</h5>
+                    </div>
+
+                    <div class="precio-producto">
+                      <div class="precios">
+                      <p class="descuentito" style="font-weight: 300; font-size: 15px;">$15.990</p>
+                      <p > $14.990</p>
+                    </div>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="producto-coleccion">
+                  <div class="manga-producto">
+
+                    <div class="imagen-manga" id="manga-22">
+
+                      <div class="disponible-vendido">
+                        <div class="mas">Más vendido</div>
+                        <div class="descuento">-3%</div>
+                        <div class="disp">Disponible</div>
+
+                      </div>
+                    </div>
+
+                    <div class="producto-info">
+                      <h3>BUENAS NOCHES, PUNPUN 01</h3>
+                      <h5>DISPONIBILIDAD: Disponible (5 artículos)
+                      </h5>
+                      <h5>EDITORIAL: NORMA EDITORIAL</h5>
+                    </div>
+
+                    <div class="precio-producto">
+                      <div class="precios">
+                      <p class="descuentito" style="font-weight: 300; font-size: 15px;">$16.990</p>
+                      <p > $15.290</p>
+                    </div>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="producto-coleccion">
+                  <div class="manga-producto">
+
+                    <div class="imagen-manga" id="manga-23">
+
+                      <div class="disponible-vendido">
+                        <div class="descuento">-40%</div>
+                        <div class="disp">Disponible</div>
+
+                      </div>
+                    </div>
+
+                    <div class="producto-info">
+                      <h3>CAROLE & TUESDAY 02</h3>
+                      <h5>DISPONIBILIDAD: Disponible (3 artículos)
+                      </h5>
+                      <h5>EDITORIAL: IVREA ARGENTINA</h5>
+                    </div>
+
+                    <div class="precio-producto">
+                      <div class="precios">
+                      <p class="descuentito" style="font-weight: 300; font-size: 15px;">$9.990</p>
+                      <p > $5.990</p>
+                    </div>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="producto-coleccion">
+                  <div class="manga-producto">
+
+                    <div class="imagen-manga" id="manga-24">
+
+                      <div class="disponible-vendido">
+                        <div class="descuento">-20%</div>
+                        <div class="disp">Disponible</div>
+
+                      </div>
+                    </div>
+
+                    <div class="producto-info">
+                      <h3>CITY HUNTER VOLUMEN 01</h3>
+                      <h5>DISPONIBILIDAD: Disponible (2 artículos)
+                      </h5>
+                      <h5>EDITORIAL: ARECHI</h5>
+                    </div>
+
+                    <div class="precio-producto">
+                      <div class="precios">
+                      <p class="descuentito" style="font-weight: 300; font-size: 15px;">$16.990</p>
+                      <p > $13.590</p>
+                    </div>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="producto-coleccion">
+                  <div class="manga-producto">
+
+                    <div class="imagen-manga" id="manga-25">
+
+                      <div class="disponible-vendido">
+                        <div class="descuento">-20%</div>
+                        <div class="disp">Disponible</div>
+
+                      </div>
+                    </div>
+
+                    <div class="producto-info">
+                      <h3>CITY HUNTER VOLUMEN 04</h3>
+                      <h5>DISPONIBILIDAD: Disponible (2 artículos)
+                      </h5>
+                      <h5>EDITORIAL: ARECHI</h5>
+                    </div>
+
+                    <div class="precio-producto">
+                      <div class="precios">
+                      <p class="descuentito" style="font-weight: 300; font-size: 15px;">$16.990</p>
+                      <p > $13.590</p>
+                    </div>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="producto-coleccion">
+                  <div class="manga-producto">
+
+                    <div class="imagen-manga" id="manga-26">
+
+                      <div class="disponible-vendido">
+                        <div class="descuento">-4%</div>
+                        <div class="disp">Disponible</div>
+
+                      </div>
+                    </div>
+
+                    <div class="producto-info">
+                      <h3>EL ZORRO Y EL PEQUEÑO TANUKI 01</h3>
+                      <h5>DISPONIBILIDAD: Disponible (2 artículos)
+                      </h5>
+                      <h5>EDITORIAL: ARECHI</h5>
+                    </div>
+
+                    <div class="precio-producto">
+                      <div class="precios">
+                      <p class="descuentito" style="font-weight: 300; font-size: 15px;">$15.490</p>
+                      <p > $14.990</p>
+                    </div>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="producto-coleccion">
+                  <div class="manga-producto">
+
+                    <div class="imagen-manga" id="manga-27">
+
+                      <div class="disponible-vendido">
+                        <div class="descuento">-4%</div>
+                        <div class="disp">Disponible</div>
+
+                      </div>
+                    </div>
+
+                    <div class="producto-info">
+                      <h3>EL ZORRO Y EL PEQUEÑO TANUKI 02</h3>
+                      <h5>DISPONIBILIDAD: Disponible (1 artículo)
+                      </h5>
+                      <h5>EDITORIAL: ARECHI</h5>
+                    </div>
+
+                    <div class="precio-producto">
+                      <div class="precios">
+                      <p class="descuentito" style="font-weight: 300; font-size: 15px;">$15.490</p>
+                      <p > $14.990</p>
+                    </div>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="producto-coleccion">
+                  <div class="manga-producto">
+
+                    <div class="imagen-manga" id="manga-28">
+
+                      <div class="disponible-vendido">
+                        <div class="disp" style="margin-bottom: 6px;">Disponible</div>
+                        <div class="descuento">-39%</div>
+
+                      </div>
+                    </div>
+
+                    <div class="producto-info">
+                      <h3>FULLMETAL ALCHEMIST KANZENBAN 01</h3>
+                      <h5>DISPONIBILIDAD: Disponible (1 artículo)
+                      </h5>
+                      <h5>EDITORIAL: NORMA EDITORIAL</h5>
+                    </div>
+
+                    <div class="precio-producto">
+                      <div class="precios">
+                      <p class="descuentito" style="font-weight: 300; font-size: 15px;">$24.490</p>
+                      <p > $14.990</p>
+                    </div>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="producto-coleccion">
+                  <div class="manga-producto">
+
+                    <div class="imagen-manga" id="manga-29">
+
+                      <div class="disponible-vendido">
+                        <div class="mas">Más vendido</div>
+                        <div class="descuento">-31%</div>
+                        <div class="disp">Disponible</div>
+
+                      </div>
+                    </div>
+
+                    <div class="producto-info">
+                      <h3>FULLMETAL ALCHEMIST KANZENBAN 02</h3>
+                      <h5>DISPONIBILIDAD: Disponible (1 artículo)
+                      </h5>
+                      <h5>EDITORIAL: NORMA EDITORIAL</h5>
+                    </div>
+
+                    <div class="precio-producto">
+                      <div class="precios">
+                      <p class="descuentito" style="font-weight: 300; font-size: 15px;">$24.490</p>
+                      <p >$16.990</p>
+                    </div>
+                      <a href="#" class="btn btn-primary">Añadir al carrito</a>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                
+                
+        
+                <div class="coleccion-paginacion">
+
+                  <div class="paginacion">
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                          <a class="page-link">Anterior</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">...</a></li>
+                        <li class="page-item"><a class="page-link" href="#">45</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="#">Siguiente</a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+
+                </div>
+
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <footer class="footer">
+
+        <div class="container2">
+  
+          <div class="footer-row">
+  
+            <div class="footer-links">
+  
+              <h4>Compañia</h4>
+              <ul>
+                <li><a href="Nosotros.html">Nosotros</a></li>
+                <li><a href="#">Nuestros servicios</a></li>
+                <li><a href="#">Politica de privacidad</a></li>
+                <li><a href="#">Unete</a></li>
+              </ul>
+  
+            </div>
+            <div class="footer-links">
+  
+              <h4>Ayuda</h4>
+              <ul>
+                <li><a href="#">Preguntas</a></li>
+                <li><a href="#">Compras</a></li>
+                <li><a href="#">Envios</a></li>
+                <li><a href="#">Estatus de origen</a></li>
+                <li><a href="#">Pagos</a></li>           
+              </ul>
+  
+            </div>
+            <div class="footer-links">
+  
+              <h4>Tienda</h4>
+              <ul>
+                <li><a href="#">Manga</a></li>
+                <li><a href="#">Separadores</a></li>
+                <li><a href="#">Comics</a></li>
+                <li><a href="#">Ropa</a></li>
+              </ul>
+  
+            </div>
+            <div class="footer-links">
+  
+              <h4>Contacto</h4>
+            <div class="social-link">
+              <div >
+                <a href="contactanos.html" class="contactanos">Escribénos</a>
+              </div>
+             <a class="social" href="https://www.facebook.com/people/Kuru-Mangas/pfbid02cDtnRDqFjepoNicQhkuEwfjNtDgUdV3WVHALkVENBucxR7cX1reT9cbi6jdZfxDzl/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+             <a class="social" href="https://www.instagram.com/kurumangas" target="_blank"><i class="fab fa-instagram"></i></a>
+             <a class="social" href="https://twitter.com/KuruMangas" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+  
+      </footer>
+      <script src="index.js"></script>
+</body>
+</html>
