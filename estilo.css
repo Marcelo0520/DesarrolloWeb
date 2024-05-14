@@ -553,7 +553,7 @@ nav {
   width: 100%;
   text-align: center;
   padding: 2rem;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgb(224, 224, 224);
 }
 
 .titulo-catalogo h1 {
@@ -567,8 +567,6 @@ nav {
   justify-content: center;
   padding: 1rem 0;
 }
-
-
 
 .left a {
   text-decoration: none;
@@ -587,16 +585,18 @@ nav {
 }
 
 .right {
-  width: 70%;
+  width: 75%;
 }
 
-.encabezado-right {
-  padding: 20px;
+.title-ofertas{
+  font-weight: 400;
+  text-align: center;
+  background-color: rgb(224, 224, 224);
+  padding: .7em;
 }
 
 .right h3 {
   font-weight: 400;
-  font-size: 25px;
   text-align: center;
   color: rgb(0, 0, 1);
 }
